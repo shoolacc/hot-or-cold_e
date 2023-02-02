@@ -35,7 +35,7 @@ basic.forever(function () {
             . . . . .
             `)
     }
-    if (input.temperature() <= 24) {
+    if (input.temperature() >= 24) {
         led.setBrightness(255)
         basic.showLeds(`
             . . . . .
